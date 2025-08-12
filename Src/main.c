@@ -135,6 +135,9 @@ int main(int argc, char *argv[]) {
     // unregister PTP task
     unreg_task_ptp();
 
+    // clean up the network driver
+    linux_nsd_cleanup();
+
     return 0;
 }
 
