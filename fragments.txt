@@ -1,0 +1,33 @@
+Some code segments that have not made (yet) into the application...
+
+// static int argc_;
+// static char **argv_;
+
+// static struct option ptp_opts[] = {
+//     {"preset", required_argument, 0, 'P'},
+//     {"slave_only", no_argument, 0, 's'},
+//     {"priority1", required_argument, 0, 'p'},
+//     {"priority2", required_argument, 0, 'q'},
+//     {"transport_type", required_argument, 0, 'T'},
+//     {"transport_specific", required_argument, 0, 'S'},
+//     {"delay_mechanism", required_argument, 0, 'D'},
+//     {"domain", required_argument, 0, 'd'},
+//     {"log", required_argument, 0, 'l'},
+//     {"tlv", required_argument, 0, 't'},
+//     {"profile_flags", required_argument, 0, 'f'},
+//     {"message_period", required_argument, 0, 'm'},
+//     {"offset", required_argument, 0, 'o'},
+//     {0}};
+
+// void process_ptp_options(int argc, char **argv) {
+//     // get options
+//     int option_index = 0;
+//     int c = getopt_long(argc, argv, "i:sP:p:q:T:S:D:d:l:t:f:m:o:", ptp_opts, &option_index);
+//     switch (c) {
+//     case 'p':
+//         strncpy(ptp_if_name, optarg, IFNAMSIZ);
+//         break;
+//     default:
+//         break;
+//     }
+// }
