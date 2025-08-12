@@ -9,7 +9,7 @@
 Still not clear what is it useful for? No worries, it's a behind-the-scenes support technology that you use unaware every day if you have a smartphone or when you are connected to the internet. Modern telecommunication and measurement systems often rely on precise time synchronization down to the nanoseconds' scale. Methods got standardized by the IEEE and now it's known by the name of the Precision Time Protocol. This software project is an evaluation environment to showcase the capabilities of our IEEE 1588 PTP implementation named `flexPTP` on Linux systems.
 
 > [!NOTE]
-> The primary goal of the flexPTP library is supporting microcontroller, this project and the Linux port is an exceptional, experimental project for the time being. This project has been inspired by the [linuxptp](https://github.com/richardcochran/linuxptp) application. Want to learn more about the implementation? Head to [Under the hood...](#under-the-hood)!
+> The primary goal of the flexPTP library is supporting microcontrollers. This project and the Linux port is an exceptional, experimental project for the time being. This project has been inspired by the [linuxptp](https://github.com/richardcochran/linuxptp) application. Want to learn more about the implementation? Head to [Under the hood...](#under-the-hood)!
 
 ### Get the sources
 
