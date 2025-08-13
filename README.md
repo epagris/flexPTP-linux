@@ -1,6 +1,6 @@
 # flexPTP Linux demo
 
-![flexPTP CLI](BeagleBone.gif)
+![flexPTP CLI](flexPTP_Linux.gif)
 
 ## What's this?
 
@@ -75,6 +75,17 @@ ptp priority [<p1> <p2>]                           Print or set clock priority f
 
 > [!TIP]
 > The above hint can be listed by typing '?'.
+
+## Tested systems
+
+The flexPTP Linux port has been tested on x86-based (64-bit generic PCs, Ubuntu 24.04, Ubuntu 24.10) and ARM-based (32-bit [BeagleBone Black Industrial](https://www.beagleboard.org/boards/beaglebone-black-industrial) SBC, Debian 12) Linux systems.
+
+All network interfaces supported by the kernel's PHC infrastructure can be used with flexPTP as well. The operation has been confirmed with the following Intel NICs:
+
+- Intel 82576
+- Intel I210
+- Intel I219-V
+- Intel E810
 
 ## Under the hood
 

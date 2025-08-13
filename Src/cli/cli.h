@@ -1,6 +1,8 @@
 #ifndef FLEXPTP_LINUX_CLI_H
 #define FLEXPTP_LINUX_CLI_H
 
+/* A very simple, statically allocated CLI implementation transferred from microcontroller projects. */
+
 #include <stdbool.h>
 #include <stdint.h>
 #include <string.h>
