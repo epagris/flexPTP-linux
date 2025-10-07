@@ -59,6 +59,14 @@ extern char ptp_if_name[];
 #define PTP_SERVO_RESET() kalman_filter_reset()
 #define PTP_SERVO_RUN(d, pscd) kalman_filter_run(d, pscd)
 
+//#include <flexptp/servo/pid_controller.h>
+//
+//#define PTP_SERVO_INIT() pid_ctrl_init()
+//#define PTP_SERVO_DEINIT() pid_ctrl_deinit()
+//#define PTP_SERVO_RESET() pid_ctrl_reset()
+//#define PTP_SERVO_RUN(d, pscd) pid_ctrl_run(d, pscd)
+
+
 // Optionally add interactive, tokenizing CLI-support
 // - CLI_REG_CMD(cmd_hintline,n_cmd,n_min_arg,cb): function for registering CLI-commands
 //      cmd_hintline: text line printed in the help beginning with the actual command, separated from help text by \t charaters
